@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.nav-logo {
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon__logo-1.png");
+    height: 50px;
+    width: 100%;
+    margin-top: 5px
+}
+
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+
+    border: 2px solid white;
+}
+
+/* box  2  */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 10px
+}
+
+.add-icon {
+    display: flex;
+    margin-left: 10px
+}
+
+/* search option in navigation panel*/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-icon {
+    display: flex;
+    background-color: #ffbe67;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    color: #0f1111;
+
+}
+
+.search-select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+    width: 60px;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.language {
+    display: flex;
+    border-style: none;
+    border: none;
+}
+
+/* box5  accounts and lists  and returns and orders*/
+
+.hello {
+    font-size: 0.7rem;
+
+}
+
+.accounts-and-lists {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* box 7 cart   */
+.cart-icon {
+    display: flex;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 0.90rem;
+}
+
+.cart i {
+    font-size: 35px;
+}
+
+.panel {
+    display: flex;
+    height: 40px;
+
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    height: 430px;
+    background-image: url(hero_section.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+}
+
+.hero-msg {
+    margin-top:
+        195px;
+    background-color: white;
+    font-family: 0.9rem;
+    color: black;
+    height: 40px;
+    width: 95%;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+/* yaha se hero section khtma hota hai or content sectiion shuru  */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(hero.jpg);
+}
+
+
+.box {
+    height: 400px;
+    width: 23%;
+    /* border: 8px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+
+
+}
+
+.box-img {
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.57rem;
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+
+}
+
+#watches {
+    height: 320px;
+    width: 395px;
+    margin-left: 0.37rem;
+}
+
+#gadget {
+    margin-bottom: 0.5rem;
+    margin-bottom: 0.37rem;
+}
+
+/* footer sign  in panel starts */
+
+
+.footer-sign-in {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center horizontally within container */
+    align-items: center; /* Center vertically within container */
+    margin-top: 1.5rem;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+  
+}
+
+.button{
+    font-weight: 700;
+    font-size: 0.95rem;
+ 
+    border: none;
+    border: 2px solid #f0a700;
+    outline: 0px solid transparent;
+}
+.footer-sign-in p{
+    margin-top: 0.2rem;
+}
+
+/* back to top wala panel  */
+.back-to-top{
+    height:60px;
+    width: 100%;
+    background-color: #34455a;
+    color: white;
+    transition: background-color 0.3s ease;
+   
+}
+
+
+.back-to-top{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.back-to-top p{
+    font-size: 0.85rem;
+
+}
+.back-to-top:hover{
+    background-color: #043b74;
+}
+/* yaha se footer chalu hai */
+footer{ 
+    height: 420px;
+    width: 100%;
+    background-color: #212d3e;
+    color: white;
+}
+.foot-panel1{
+  padding: 0px 10px;
+display: flex;
+justify-content: space-evenly;
+
+}
+ul {
+    margin-top: 1rem;
+}
+ul a {
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel1 p {
+    font-size: 1.5rem;
+
+}
+.logo-2{ margin-top: 20px;
+    background-image: url("amazon__logo-1.png");
+    height: 50px;
+    width: 100px;
+}
+.foot-panel2{
+    display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.shivam-logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 825px;
+}
